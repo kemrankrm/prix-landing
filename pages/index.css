@@ -1,0 +1,29 @@
+@import "../vendor/normalize.css";
+@import "../vendor/fonts.css";
+
+/*HEADER SECTION STYLES*/
+@import "../blocks/header/header.css";
+@import "../blocks/header/__content/header__content.css";
+@import "../blocks/header/__navigation-list/header__navigation-list.css";
+@import "../blocks/header/__logo/header__logo.css";
+
+/*MAIN SECTION STYLES*/
+@import "../blocks/main/main.css";
+
+/*INTRO SECTION STYLES*/
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__content/intro__content.css";
+@import "../blocks/intro/__image/intro__image.css";
+@import "../blocks/intro/__subtitle/intro__subtitle.css";
+@import "../blocks/intro/__title/intro__title.css";
+@import "../blocks/intro/__text-container/intro__text-container.css";
+@import "../blocks/intro/__apple-badge/intro__apple-badge.css";
+
+/*FEATURES SECTION STYLES*/
+@import "../blocks/features/features.css";
+@import "../blocks/features/__header/features__header.css";
+@import "../blocks/features/__cards/features__cards.css";
+@import "../blocks/features/__card/features__card.css";
+@import "../blocks/features/__title/features__title.css";
+@import "../blocks/features/__image/features__image.css";
+@import "../blocks/features/__description/features__description.css";

@@ -1,0 +1,19 @@
+.features__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 250px;
+
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px #F8F8F8;
+
+    transition: scale .2s ease-in-out;
+
+}
+
+.features__card:hover {
+    scale: 1.02;
+    cursor: pointer;
+}

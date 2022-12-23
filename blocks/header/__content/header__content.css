@@ -1,0 +1,8 @@
+.header__content {
+    width: 80%;
+    margin: 20px auto;
+
+    display: flex;
+    justify-content: space-between;
+    /*background-color: #F5F5F5;*/
+}

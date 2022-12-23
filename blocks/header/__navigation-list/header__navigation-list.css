@@ -1,0 +1,9 @@
+.header__navigation-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 600px;
+    padding: 0;
+
+    border: 1px solid red;
+}

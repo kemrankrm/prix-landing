@@ -1,0 +1,12 @@
+.intro__title {
+    position: absolute;
+    margin: 0;
+
+    top: 20%;
+    left: 50px;
+
+    font-weight: 600;
+    font-size: 42px;
+    /*color: #69d2e7;*/
+    color: #00b4fc;
+}
