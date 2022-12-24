@@ -13,11 +13,11 @@ window.addEventListener('scroll', () => {
     } else if (scrollPosition > 130) {
         featuresHeader.setAttribute('style', 'opacity: 1;')
     } else {
-        featuresHeader.setAttribute('style', `opacity: ${(scrollPosition - 65) * 0.01}`)
+        featuresHeader.setAttribute('style', `opacity: ${(scrollPosition - 65) * 0.006}`)
     }
 
-    // firstCard.forEach((item, index) => {
-    //     item.setAttribute('style', `transform: translateY(${index*(scrollPosition/10)}px)`)
-    // });
+    firstCard.forEach((item, index) => {
+        item.setAttribute('style', `opacity: ${(scrollPosition-149) * 0.005}`)
+    });
 })
 

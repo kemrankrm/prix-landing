@@ -30,5 +30,9 @@
 @import "../blocks/features/__cards/features__cards.css";
 @import "../blocks/features/__card/features__card.css";
 @import "../blocks/features/__title/features__title.css";
+@import "../blocks/features/__image-container/features__image-container.css";
 @import "../blocks/features/__image/features__image.css";
 @import "../blocks/features/__description/features__description.css";
+
+
+@import "../blocks/content/content.css";

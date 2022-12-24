@@ -1,0 +1,64 @@
+.content {
+    height: 500px;
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 90px 0;
+
+    /*border: 1px solid red;*/
+
+    background-image: url("../../images/color-background.jpeg");
+    color: white;
+    font-family: Montserrat, Inter,sans-serif;
+
+}
+
+.content__wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content__image-container {
+    width: 500px;
+    height: 500px;
+    background-color: #FFFFFF;
+    /*border: 1px solid blue;*/
+    border-radius: 600px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.content__image {
+    width: 600px;
+    height: 100%;
+}
+
+.content__info {
+    width: 40%;
+    /*border: 1px solid green;*/
+}
+
+.content__title {
+    width: 100%;
+    font-size: 56px;
+    /*border: 1px solid black;*/
+}
+
+.content__subtitle {
+    width: 100%;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 2rem;
+    /*border: 1px solid purple;*/
+}
+
+.content__text {
+    width: 100%;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 2rem;
+    /*border: 1px solid brown;*/
+}
