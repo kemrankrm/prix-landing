@@ -1,5 +1,10 @@
 .intro {
-    background-color: #F5F5F5;
+    background-image: url("../../images/bg_bggenerator_com.png");
+    backdrop-filter: blur(3000px);
+    min-height: 500px;
 
-    border-bottom-left-radius: px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -4,5 +4,14 @@
 
     display: flex;
     justify-content: space-between;
-    /*background-color: #F5F5F5;*/
+
+    background: rgba(232, 232, 232, 0.15);
+
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    padding: 0 40px;
 }

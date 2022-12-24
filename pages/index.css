@@ -3,9 +3,14 @@
 
 /*HEADER SECTION STYLES*/
 @import "../blocks/header/header.css";
+@import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__content/header__content.css";
 @import "../blocks/header/__navigation-list/header__navigation-list.css";
-@import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__nabigation-item/header__navigation-item.css";
+@import "../blocks/header/__button/header__button.css";
+
+/*MAIN SECTION STYLES*/
+@import "../blocks/footer/footer.css";
 
 /*MAIN SECTION STYLES*/
 @import "../blocks/main/main.css";
