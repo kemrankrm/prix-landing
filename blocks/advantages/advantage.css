@@ -1,0 +1,39 @@
+.advantages {
+    background-color: #F7F7F7;
+    font-family: Montserrat, sans-serif;
+    padding: 50px 0;
+}
+
+.advantages__image-container {
+    background: none;
+}
+
+.advantages__title {
+    color: orange;
+}
+
+.advantages__title-border {
+    width: 100%;
+    height: 5px;
+
+    background-color: orange;
+}
+
+.advantages__subtitle {
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.advantages__link {
+    border-color: orange;
+    color: orange;
+
+    transition:  all .1s ease-in-out;
+}
+
+.advantages__link:hover {
+    border-color: #c2c2c2;
+    color: white;
+    background-color: #c2c2c2;
+}
+
