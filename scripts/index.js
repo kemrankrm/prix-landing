@@ -3,6 +3,11 @@ const featuresCards = document.querySelectorAll('.features__card');
 const featuresTitleBorder = document.querySelector('.content__title-border');
 const advantagesTitleBorder = document.querySelector('.advantages__title-border');
 
+const blogTitle = document.querySelector('.blog__title');
+const blogSubtitle = document.querySelector('.blog__subtitle');
+const blogContainer = document.querySelector('.blog__container');
+const blogImageDescription = document.querySelectorAll('.blog__description');
+
 const scrollDisplay = document.querySelector('.scroll');
 
 //FUNCTIONS
@@ -36,6 +41,13 @@ window.addEventListener('scroll', () => {
 
     //VARIABLE CARDS TITLE OPACITY
     varyElementOpacity(featuresHeader, 400, 580);
+
+    varyElementOpacity(blogTitle, 2479, 2850);
+    varyElementOpacity(blogSubtitle, 2546, 2900);
+    varyElementOpacity(blogContainer, 2700, 2900);
+    blogImageDescription.forEach(item => {
+        varyElementOpacity(item, 2900, 3050);
+    })
 
     //VARIABLE OPACITY FOR EACH CAR
     featuresCards.forEach(item => {
