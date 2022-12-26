@@ -1,11 +1,13 @@
 .community {
     width: 100%;
-    height: 470px;
+    /*height: 470px;*/
 
     background-image: url("../../images/yellow-background-circles.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+
+    padding: 100px 0;
 }
 
 .community__wrapper {
@@ -21,9 +23,15 @@
 }
 
 .community__title {
-    width: 400px;
-    margin: 150px 0 0;
+    width: 500px;
+    /*margin: 150px 0 0;*/
     font-size: 36px;
+}
+
+.community__title .prix {
+    color: #0070f3;
+    font-size: 43px;
+    font-weight: bolder;
 }
 
 .community__subtitle {
@@ -72,6 +80,9 @@
     height: 100%;
     background-color: #000000;
     color: #FFFFFF;
+
+    font-family: Montserrat, sans-serif;
+    font-weight: 200;
 
     border: none;
     border-radius: 8px;

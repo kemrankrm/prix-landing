@@ -1,86 +1,146 @@
 .footer {
     width: 100%;
-    position: relative;
-    height: auto;
+    /*height: 300px;*/
+    /*padding: 30px 0;*/
+
+    font-family: Montserrat, sans-serif;
+
+    background-color: #F7F7F7;
 }
 
-.footer .contain {
-    width: 100%;
+.footer__wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.footer__flex {
     display: flex;
-    justify-content: space-around;
-}
-.footer .col {
-    width: 190px;
-    height: auto;
-    float: left;
-    box-sizing: border-box;
-    padding: 0 20px 20px 20px;
-}
-.footer .col h1 {
-    margin: 0;
-    font-size: 12px;
-    line-height: 17px;
-    font-weight: 300;
-    padding: 20px 0 5px 0;
-    color: #000000;
-    text-transform: uppercase;
-}
-.footer .col ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.footer .col ul li {
-    color: #000000;
-    font-size: 14px;
-    font-family: inherit;
-    font-weight: 400;
-    padding: 5px 0 5px 0;
-    cursor: pointer;
-    transition: .2s;
-    -webkit-transition: .2s;
-    -moz-transition: .2s;
+    justify-content: space-between;
+    margin: 0 0 40px
 }
 
-@media only screen and (min-width: 1280px) {
-    .contain {
-        width: 1200px;
-        margin: 0 auto;
-    }
+.footer__holding-info {
+    width: 30%;
 }
-@media only screen and (max-width: 1139px) {
-    .contain .social {
-        width: 1000px;
-        display: block;
-    }
-    .social h1 {
-        margin: 0;
-    }
+
+.footer__holding-info .title {
+    font-weight: 400;
 }
-@media only screen and (max-width: 950px) {
-    .footer .col {
-        width: 33%;
-    }
-    .footer .col h1 {
-        font-size: 14px;
-    }
-    .footer .col ul li {
-        font-size: 13px;
-    }
+
+.footer__holding-info .description {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 1.5rem;
 }
-@media only screen and (max-width: 500px) {
-    .footer .col {
-        width: 50%;
-    }
-    .footer .col h1 {
-        font-size: 14px;
-    }
-    .footer .col ul li {
-        font-size: 13px;
-    }
+
+.footer__holding-info .button {
+    border: none;
+    border-radius: 15px;
+    padding: 7px 20px;
+
+    background-color: #0070f3;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    transition: all .2s ease-in-out;
 }
-@media only screen and (max-width: 340px) {
-    .footer .col {
-        width: 100%;
-    }
+
+.footer__holding-info .button:hover {
+    background-color: dodgerblue;
+    scale: 1.03;
 }
+
+.footer__lists {
+    width: 60%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list-title {
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: underline;
+    margin: 0 0 30px
+}
+
+.footer__list {
+    list-style: none;
+    padding: 0;
+    font-weight: 200;
+}
+
+.footer__link {
+    margin: 20px 0 0;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid #A2A2A2;
+}
+
+.footer__copyright {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.footer__social {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.footer__social .icon {
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    transition: all .3s ease-in-out;
+}
+
+.footer__social .icon:hover {
+    scale: 1.05;
+    /*filter: brightness(70%);*/
+    /*background-color: #F7CA60;*/
+    background-color: #A2A2A2;
+    /*opacity: .6;*/
+}
+
+.footer__social .linkedin   {
+    background-image: url("../../images/linkedin-svgrepo-com.svg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__social .instagram {
+    background-image: url("../../images/instagram-svgrepo-com.svg");
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__social .facebook {
+    background-image: url("../../images/facebook-svgrepo-com.svg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__social .github {
+    background-image: url("../../images/github-svgrepo-com.svg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black
+}
+
