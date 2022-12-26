@@ -7,8 +7,6 @@
 .popup_visible {
     visibility: visible;
     opacity: 1;
-
-
 }
 
 .popup__overlay {
@@ -18,12 +16,14 @@
     top: 0;
     left: 0;
     z-index: 2;
+    background-color: black;
+    opacity: .1;
     backdrop-filter: blur(2px);
 }
 
 .popup__container {
-    min-width: 800px;
-    min-height: 500px;
+    width: 800px;
+    max-height: 500px;
 
     border-radius: 30px;
     background-color: #FFFFFF;
@@ -34,6 +34,9 @@
     left: calc(50% - 400px);
     margin: 0 auto;
     z-index: 4;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .popup__close-button {
@@ -60,4 +63,35 @@
 .popup__close-button:hover {
     opacity: .7;
     scale: 1.02;
+}
+
+.popup__image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.popup__text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+
+    font-family: Montserrat, sans-serif;
+}
+
+.popup__title {
+    align-self: start;
+    font-size: 28px;
+    text-align: start;
+}
+
+.popup__text {
+    font-weight: 200;
+    line-height: 2rem;
+}
+
+.popup__span {
+    font-size: 18px;
+    color: #0070f3;
+    font-weight: 400;
 }

@@ -1,3 +1,27 @@
+const popupContent = [
+    {
+        name: 'marketplace',
+        title: 'Удобный маркетплейс',
+        text: 'PRIX предоставляет выбор авто из самой актуальной базы зарубежных авторынков. Подробное описание автомобиля, фото и цены от наших партнеров - все это будет компактно упаковано для приятного чтения. Команда Prix делает все для упрощения и прозрачности покупки авто. Осталось приступить к оформлению заказа. Удачи!',
+        image: './images/porsche-minimalist-4k-s4-1366x768.jpg',
+        addition: 'blablabla',
+    },
+    {
+        name: 'pricing',
+        title: 'Лучшие цены',
+        text: 'Основная цель Prix - предоставить лучшие условия для клиентов. Мы стимулируем наших партнеров конкурировать для предоставления лучших цен и снижение сроков поставки. Помимо цен ты также сможешь увидеть преимущества каждой компании, отзывы и оценки наших клиентов, а также количество успешно доставленных автомобилей. Мы уверены, что ты найдешь ту самую!',
+        image: './images/bestPricePopupImage.jpg',
+        addition: 'blablabla',
+    },
+    {
+        name: 'gps',
+        title: 'GPS ТРЕКИНГ',
+        text: 'Безопасность сделки - один из главных приоритетов Prix. Команда разработчиков позаботилась о твоих нервах и внедрила точную систему определения местоположения авто в любой точке мира(GPS). Удобный интерфейс поможет тебе всегда знать, где в данный момент находится твой автомобиль. Также перед отправкой тебе будет выслан подробный отчет об осмотре авто специалистом, дополненный фотографиями. После подписания договора в личном кабинете появится возможность отслеживания авто. Не переживай!',
+        image: './images/gpsPicForPopup.jpeg',
+        addition: 'blablabla',
+    },
+]
+
 const featuresHeader = document.querySelector('.features__header');
 const featuresCards = document.querySelectorAll('.features__card');
 const featuresTitleBorder = document.querySelector('.content__title-border');
@@ -11,23 +35,30 @@ const blogImageDescription = document.querySelectorAll('.blog__description');
 const popup = document.querySelector('.popup');
 const popupCloseButton = document.querySelector('.popup__close-button');
 const popupOverlay = document.querySelector('.popup__overlay');
+const popupImage = popup.querySelector('.popup__image')
+const popupTitle = popup.querySelector('.popup__title');
+const popupText = popup.querySelector('.popup__text');
 
 const closeElements = [popupCloseButton, popupOverlay];
 const cards = document.querySelectorAll('.features__card');
 
 cards.forEach(item => {
-    item.addEventListener('click', handlePopupOpen);
+    item.addEventListener('click', () => handlePopupOpen(item));
 })
 
 closeElements.forEach(item => {
     item.addEventListener('click', handlePopupClose)
 })
 
-console.log(cards)
-
 const scrollDisplay = document.querySelector('.scroll');
 
-function handlePopupOpen() {
+function handlePopupOpen(item) {
+    const content = popupContent.find(block => block.name === item.id)
+
+    popupImage.setAttribute('src', content.image)
+    popupTitle.textContent = content.title;
+    popupText.textContent = content.text;
+
     popup.classList.add('popup_visible');
     document.addEventListener('keydown', handleEscClose)
 
@@ -36,6 +67,13 @@ function handlePopupOpen() {
 function handlePopupClose() {
     popup.classList.remove('popup_visible');
     document.removeEventListener('keydown', handleEscClose);
+    clearPopupData();
+}
+
+function clearPopupData() {
+    popupImage.setAttribute('src', null)
+    popupTitle.textContent = null;
+    popupText.textContent = null;
 }
 
 function handleEscClose(e) {
