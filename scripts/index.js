@@ -8,7 +8,43 @@ const blogSubtitle = document.querySelector('.blog__subtitle');
 const blogContainer = document.querySelector('.blog__container');
 const blogImageDescription = document.querySelectorAll('.blog__description');
 
+const popup = document.querySelector('.popup');
+const popupCloseButton = document.querySelector('.popup__close-button');
+const popupOverlay = document.querySelector('.popup__overlay');
+
+const closeElements = [popupCloseButton, popupOverlay];
+const cards = document.querySelectorAll('.features__card');
+
+cards.forEach(item => {
+    item.addEventListener('click', handlePopupOpen);
+})
+
+closeElements.forEach(item => {
+    item.addEventListener('click', handlePopupClose)
+})
+
+console.log(cards)
+
 const scrollDisplay = document.querySelector('.scroll');
+
+function handlePopupOpen() {
+    popup.classList.add('popup_visible');
+    document.addEventListener('keydown', handleEscClose)
+
+}
+
+function handlePopupClose() {
+    popup.classList.remove('popup_visible');
+    document.removeEventListener('keydown', handleEscClose);
+}
+
+function handleEscClose(e) {
+    let button = e.key;
+
+    if (button === 'Escape') {
+        handlePopupClose()
+    }
+}
 
 //FUNCTIONS
 const varyBorderWidth = (titleBorder, minScroll, maxScroll) => {

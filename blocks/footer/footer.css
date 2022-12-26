@@ -62,7 +62,8 @@
     font-weight: 600;
     font-size: 18px;
     text-decoration: underline;
-    margin: 0 0 30px
+    margin: 0 0 30px;
+    cursor: default;
 }
 
 .footer__list {
@@ -73,6 +74,12 @@
 
 .footer__link {
     margin: 20px 0 0;
+
+    transition: opacity .2s ease-in-out;
+}
+
+.footer__link:hover {
+    opacity: .5;
 }
 
 .footer__bottom {
