@@ -83,6 +83,7 @@
     text-decoration: none;
     color: #0070f3;
     transition: color .3s ease-in-out;
+    margin: 0 0 20px;
 }
 
 .blog__link:hover {

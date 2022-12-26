@@ -1,0 +1,95 @@
+.community {
+    width: 100%;
+    height: 470px;
+
+    background-image: url("../../images/yellow-background-circles.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.community__wrapper {
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+.community__title {
+    width: 400px;
+    margin: 150px 0 0;
+    font-size: 36px;
+}
+
+.community__subtitle {
+    width: 500px;
+    margin: 25px 0;
+
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.community__form {
+    width: 400px;
+    background-color: #FFFFFF;
+
+    border: none;
+    border-radius: 15px;
+}
+
+.community__fieldset {
+    display: flex;
+    height: 50px;
+    border: none;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+
+.community__input {
+    width: 65%;
+    height: 100%;
+    border: none;
+}
+
+.community__input:focus {
+    border: #000000;
+}
+
+.community__input::placeholder {
+
+}
+
+.community__button {
+    width: 30%;
+    height: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 8px;
+
+    transition: all .2s ease-in-out;
+}
+
+.community__button:hover {
+    cursor: pointer;
+    opacity: .5;
+    scale: 1.02;
+}
+
+.community__note {
+    font-weight: 200;
+    color: #A2A2A2;
+
+    filter: brightness(60%);
+}
+
+
