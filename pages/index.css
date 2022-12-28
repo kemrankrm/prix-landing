@@ -10,9 +10,6 @@
 @import "../blocks/header/__button/header__button.css";
 
 /*MAIN SECTION STYLES*/
-@import "../blocks/footer/footer.css";
-
-/*MAIN SECTION STYLES*/
 @import "../blocks/main/main.css";
 
 /*INTRO SECTION STYLES*/
@@ -37,6 +34,7 @@
 
 
 @import "../blocks/content/content.css";
+@import "../blocks/content/content(responsive).css";
 
 @import "../blocks/advantages/advantage.css";
 
@@ -45,5 +43,8 @@
 
 @import "../blocks/community/community.css";
 @import "../blocks/community/community(responsive).css";
+
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/footer(responsive).css";
 
 @import "../blocks/popup/popup.css";

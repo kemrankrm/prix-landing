@@ -1,6 +1,5 @@
 .community {
     width: 100%;
-    /*height: 470px;*/
 
     background-image: url("../../images/yellow-background-circles.png");
     background-repeat: no-repeat;
@@ -24,7 +23,6 @@
 
 .community__title {
     width: 500px;
-    /*margin: 150px 0 0;*/
     font-size: 36px;
 }
 
