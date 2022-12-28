@@ -1,0 +1,13 @@
+@media screen and (max-width: 420px) {
+    .popup {
+        width: 100%;
+    }
+
+    .popup__container {
+        width: 90%;
+        left: 50%;
+        top: 100px;
+
+        transform: translate(-50%, 0);
+    }
+}
