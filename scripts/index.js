@@ -158,6 +158,7 @@ const varyElementOpacity = (element, minScroll, maxScroll) => {
 
 let scrollPosition;
 
+console.log(window.visualViewport)
 //FEATURES HEADER VARIABLE OPACITY SETUP
 window.addEventListener('scroll', () => {
     scrollPosition = window.pageYOffset;
