@@ -1,0 +1,27 @@
+@media screen and (max-width: 420px) {
+    .features {
+        padding: 40px 0;
+    }
+
+    .features__header {
+        font-size: 26px;
+        margin: 20px 0;
+    }
+
+    .features__cards {
+        flex-direction: column;
+    }
+
+    .features__card {
+        width: 95%;
+        margin: 0 0 20px;
+    }
+
+    .features__title{
+        margin: 20px 0 0;
+    }
+
+    .features__description {
+        margin: 15px 0;
+    }
+}

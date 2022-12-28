@@ -130,8 +130,4 @@
         filter: brightness(100%);
         margin-bottom: 20px;
     }
-
-    .footer {
-        display: none;
-    }
 }

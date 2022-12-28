@@ -89,3 +89,7 @@
 .blog__link:hover {
     color: #3e62a8;
 }
+
+.intro {
+    display: none;
+}

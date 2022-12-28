@@ -164,14 +164,14 @@ window.addEventListener('scroll', () => {
     scrollDisplay.textContent = scrollPosition;
 
     //VARIABLE CARDS TITLE OPACITY
-    varyElementOpacity(featuresHeader, 400, 580);
+    // varyElementOpacity(featuresHeader, 400, 580);
 
-    varyElementOpacity(blogTitle, 2479, 2850);
-    varyElementOpacity(blogSubtitle, 2546, 2900);
-    varyElementOpacity(blogContainer, 2700, 2900);
-    blogImageDescription.forEach(item => {
-        varyElementOpacity(item, 2900, 3050);
-    })
+    // varyElementOpacity(blogTitle, 2479, 2850);
+    // varyElementOpacity(blogSubtitle, 2546, 2900);
+    // varyElementOpacity(blogContainer, 2700, 2900);
+    // blogImageDescription.forEach(item => {
+    //     varyElementOpacity(item, 2900, 3050);
+    // })
 
     //VARIABLE OPACITY FOR EACH CAR
     featuresCards.forEach(item => {
