@@ -21,6 +21,34 @@ const popupContent = [
         addition: 'blablabla',
     },
 ]
+const cardsContent = [
+    {
+        id: 'marketplace',
+        imageUrl: 'images/Add%20files-rafiki.svg',
+        imageAlt: 'feature',
+        title: 'УДОБНЫЙ МАРКЕТПЛЕЙС',
+        description: 'Найти и выбрать авто в любой стране стало гораздо проще',
+    },
+    {
+        id: 'pricing',
+        imageUrl: 'images/Calculator-amico.svg',
+        imageAlt: 'feature',
+        title: 'КОНКУРЕНТНЫЕ ЦЕНЫ',
+        description: 'Партнеры предложат цены на модели по интересу, где ты сможешь подобрать авто под свой бюджет',
+    },
+    {
+        id: 'gps',
+        imageUrl: 'images/Paper%20map-bro%20(1).svg',
+        imageAlt: 'GPS ТРЕКИНГ',
+        title: 'GPS ТРЕКИНГ',
+        description: 'Отслеживай доставку своего авто в любой точке мира',
+    },
+]
+
+const cardsContainer = document.querySelector('.features__cards');
+const cardTemplate = document.querySelector('.card-template').content;
+
+// console.log(cardTemplate);
 
 const featuresHeader = document.querySelector('.features__header');
 const featuresCards = document.querySelectorAll('.features__card');
@@ -39,9 +67,14 @@ const popupImage = popup.querySelector('.popup__image')
 const popupTitle = popup.querySelector('.popup__title');
 const popupText = popup.querySelector('.popup__text');
 
+
+//CARD ELEMENT CLONING
+cloneCardElement(cardsContent);
+
 const closeElements = [popupCloseButton, popupOverlay];
 const cards = document.querySelectorAll('.features__card');
 
+//CARD ELEMENT CLICK LISTENER
 cards.forEach(item => {
     item.addEventListener('click', () => handlePopupOpen(item));
 })
@@ -82,6 +115,23 @@ function handleEscClose(e) {
     if (button === 'Escape') {
         handlePopupClose()
     }
+}
+
+function cloneCardElement (data) {
+    data.forEach(item => {
+        const card = cardTemplate.querySelector('.features__card').cloneNode(true);
+        const image = card.querySelector('.features__image');
+        const title = card.querySelector('.features__title');
+        const description = card.querySelector('.features__description');
+
+        card.id = item.id;
+        image.setAttribute('src', item.imageUrl);
+        image.setAttribute('alt', item.imageAlt);
+        title.textContent = item.title;
+        description.textContent = item.description;
+
+        cardsContainer.append(card);
+    })
 }
 
 //FUNCTIONS

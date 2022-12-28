@@ -7,23 +7,23 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>Prix</title>
 </head>
-<body style="position: relative">
+<body style="position: relative; width: 100vw">
     <h1 class="scroll" style="position: fixed; z-index: 5"></h1>
     <section class="intro">
-        <header class="header">
-            <div class="header__content">
-                <img class="header__logo" src="images/prixlogo.png" alt="logo">
-                <nav class="header__navigation">
-                    <ul class="header__navigation-list">
-                        <li class="header__navigation-item">О нас</li>
-                        <li class="header__navigation-item">Конфиденциальность</li>
-                        <li class="header__navigation-item">Линк</li>
-                        <li class="header__navigation-item">Линк</li>
-                    </ul>
-                </nav>
-                <button class="header__button">Войти</button>
-            </div>
-        </header>
+<!--        <header class="header">-->
+<!--            <div class="header__content">-->
+<!--                <img class="header__logo" src="images/prixlogo.png" alt="logo">-->
+<!--                <nav class="header__navigation">-->
+<!--                    <ul class="header__navigation-list">-->
+<!--                        <li class="header__navigation-item">О нас</li>-->
+<!--                        <li class="header__navigation-item">Конфиденциальность</li>-->
+<!--                        <li class="header__navigation-item">Линк</li>-->
+<!--                        <li class="header__navigation-item">Линк</li>-->
+<!--                    </ul>-->
+<!--                </nav>-->
+<!--                <button class="header__button">Войти</button>-->
+<!--            </div>-->
+<!--        </header>-->
         <div class="intro__content">
             <h1 class="intro__title">
                 Онлайн-сервис покупки авто <br/> из за границы
@@ -41,41 +41,7 @@
     <main class="main">
         <section class="features">
             <h2 class="features__header">Решения, которые ускорят и обезопасят <br/>твою сделку</h2>
-            <div class="features__cards">
-                <div class="features__card" id="marketplace">
-                    <div class="features__image-container">
-                        <img class="features__image" src="images/Add%20files-rafiki.svg" alt="feature"/>
-                    </div>
-                    <h4 class="features__title">
-                        УДОБНЫЙ МАРКЕТПЛЕЙС
-                    </h4>
-                    <p class="features__description">
-                        Найти и выбрать авто в любой стране стало гораздо проще
-                    </p>
-                </div>
-                <div class="features__card" id="pricing">
-                    <div class="features__image-container">
-                        <img class="features__image" src="images/Calculator-amico.svg" alt="feature"/>
-                    </div>
-                    <h4 class="features__title">
-                        КОНКУРЕНТНЫЕ ЦЕНЫ
-                    </h4>
-                    <p class="features__description">
-                        Партнеры предложат цены на модели по интересу, где ты сможешь подобрать авто под свой бюджет
-                    </p>
-                </div>
-                <div class="features__card" id="gps">
-                    <div class="features__image-container">
-                        <img class="features__image" src="images/Paper%20map-bro%20(1).svg"/>
-                    </div>
-                    <h4 class="features__title">
-                        GPS ТРЕКИНГ
-                    </h4>
-                    <p class="features__description">
-                        Отслеживай доставку своего авто в любой точке мира
-                    </p>
-                </div>
-            </div>
+            <div class="features__cards"></div>
         </section>
         <section class="content">
             <div class="content__wrapper">
@@ -317,6 +283,17 @@
             <button class="popup__close-button"></button>
         </div>
     </div>
+    <template class="card-template">
+        <div class="features__card" id="">
+            <div class="features__image-container">
+                <img class="features__image" src="" alt=""/>
+            </div>
+            <h4 class="features__title">
+            </h4>
+            <p class="features__description">
+            </p>
+        </div>
+    </template>
 </body>
 <script src="scripts/index.js"></script>
 </html>
