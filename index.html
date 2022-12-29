@@ -9,39 +9,55 @@
 </head>
 <body style="position: relative; width: 100vw">
     <h1 class="scroll" style="position: fixed; z-index: 5"></h1>
-<!--    <section class="intro">-->
-<!--        <header class="header">-->
-<!--            <div class="header__content">-->
-<!--                <img class="header__logo" src="images/prixlogo.png" alt="logo">-->
-<!--                <nav class="header__navigation">-->
-<!--                    <ul class="header__navigation-list">-->
-<!--                        <li class="header__navigation-item">О нас</li>-->
-<!--                        <li class="header__navigation-item">Конфиденциальность</li>-->
-<!--                        <li class="header__navigation-item">Линк</li>-->
-<!--                        <li class="header__navigation-item">Линк</li>-->
-<!--                    </ul>-->
-<!--                </nav>-->
-<!--                <button class="header__button">Войти</button>-->
-<!--            </div>-->
-<!--        </header>-->
-<!--        <div class="intro__content">-->
-<!--            <h1 class="intro__title">-->
-<!--                Онлайн-сервис покупки авто <br/> из за границы-->
-<!--            </h1>-->
-<!--            <h3 class="intro__subtitle">-->
-<!--                Безопасный, быстрый и удобный <br/>способ покупки и доставки авто в Казахстан-->
-<!--            </h3>-->
-<!--            <a class="intro__link" href="another.html">-->
-<!--                <div class="intro__apple-badge"></div>-->
-<!--            </a>-->
-<!--            <img class="intro__image" src="images/By my car-pana.png" alt="main pic"/>-->
-<!--        </div>-->
-<!--    </section>-->
+    <header class="header">
+        <div class="header__content">
+            <img class="header__logo" src="images/prixlogo.png" alt="logo">
+            <nav class="header__navigation">
+                <ul class="header__navigation-list">
+                    <li class="header__navigation-item">О нас</li>
+                    <li class="header__navigation-item">Конфиденциальность</li>
+                    <li class="header__navigation-item">Линк</li>
+                    <li class="header__navigation-item">Линк</li>
+                </ul>
+            </nav>
+        </div>
+        <button class="header__button">Войти</button>
+    </header>
+
+    <section class="intro">
+        <div class="intro__content">
+            <h1 class="intro__title">
+                Онлайн-сервис покупки авто <br/> из-за границы
+            </h1>
+            <h3 class="intro__subtitle">
+                Безопасный, быстрый и удобный <br/>способ покупки и доставки авто в Казахстан
+            </h3>
+        </div>
+        <img class="intro__image" src="images/buycar.png" alt="main pic"/>
+    </section>
 
     <main class="main">
         <section class="features">
             <h2 class="features__header">Решения, которые ускорят и обезопасят твою сделку.</h2>
             <div class="features__cards"></div>
+        </section>
+        <section class="advantages">
+            <div class="content__wrapper">
+                <div class="content__info advantages__info">
+                    <h2 class="content__title advantages__title">
+                        Удобная оплата
+                        <div class="advantages__title-border"></div>
+                    </h2>
+                    <h3 class="content__subtitle advantages__subtitle">
+                        Интуитивно простой интерфейс поможет без труда подобрать автомобиль и продовца.
+                        А интегрированные системы гарантируют Вашу осведомленность в процессах выкупа, доставки и оформления авто
+                    </h3>
+                    <a class="content__link advantages__link" href="#">Узнать подробнее</a>
+                </div>
+                <div class="content__image-container advantages__image-container">
+                    <img class="content__image advantages__image" src="images/eWallet.png" alt="section pic"/>
+                </div>
+            </div>
         </section>
         <section class="content">
             <div class="content__wrapper">
@@ -51,7 +67,7 @@
                 <div class="content__info">
                     <h2 class="content__title">
                         Lorem ipsum dolor.
-                        <div class="content__title-border"></div>
+                        <span class="content__title-border"></span>
                     </h2>
                     <h3 class="content__subtitle">
                         Уникальные решения, которые сделали процесс покупки авто еще более удобным
@@ -70,8 +86,7 @@
             <div class="content__wrapper">
                 <div class="content__info advantages__info">
                     <h2 class="content__title advantages__title">
-                        Простота на Всём Пути
-                        <div class="advantages__title-border"></div>
+                        Удобная оплата
                     </h2>
                     <h3 class="content__subtitle advantages__subtitle">
                         Интуитивно простой интерфейс поможет без труда подобрать автомобиль и продовца.
@@ -80,7 +95,7 @@
                     <a class="content__link advantages__link" href="#">Узнать подробнее</a>
                 </div>
                 <div class="content__image-container advantages__image-container">
-                    <img class="content__image advantages__image" src="images/Course%20app-amico.svg" alt="section pic"/>
+                    <img class="content__image advantages__image" src="images/flow.png" alt="section pic"/>
                 </div>
             </div>
         </section>
@@ -130,13 +145,10 @@
                 </h3>
                 <form class="community__form">
                     <fieldset class="community__fieldset">
-                            <input
-                                    class="community__input"
-                                    name="email"
-                                    type="email"
-                                    placeholder="exmaple@example.kz"
-                            />
-                            <button class="community__button" type="submit">Выслать</button>
+                        <label>
+                            <input class="community__input" name="email" type="email" placeholder="exmaple@example.kz" />
+                        </label>
+                        <button class="community__button" type="submit">Выслать</button>
                     </fieldset>
                 </form>
                 <p class="community__note">
@@ -150,12 +162,8 @@
             <div class="footer__flex">
                 <div class="footer__holding-info">
                     <p class="title">
-                        <img
-                                src="images/prixlogo.png"
-                                alt='logo'
-                                style="width: 40px; margin-right: 20px"
-                        />
-                        ТОО "PRIX.kz"
+                        <img src="images/prixlogo.png" alt='logo' style="width: 40px; margin-right: 20px" />
+                        ТОО "PRIX.KZ"
                     </p>
                     <p class="description">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -163,7 +171,7 @@
                         quod saepe. Et laudantium maiores natus nihil sint voluptate,
                         voluptates!
                     </p>
-                    <button class="button">Social</button>
+<!--                    <button class="button">Social</button>-->
                 </div>
                 <div class="footer__lists">
                     <div class="footer__company">

@@ -21,6 +21,8 @@
 }
 
 .footer__holding-info .title {
+    display: flex;
+    align-items: center;
     font-weight: 400;
 }
 

@@ -1,10 +1,6 @@
 .intro {
-    background-image: url("../../images/bg_bggenerator_com.png");
-    backdrop-filter: blur(3000px);
-    min-height: 500px;
+    display: flex;
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    max-width: 1180px;
+    margin: 40px auto 0;
 }
