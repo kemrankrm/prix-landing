@@ -1,4 +1,11 @@
 .advantages {
+    width: 100%;
+
+    /*background-image: url("../../images/blue.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: top;*/
+    /*background-size: cover;*/
+
     background-color: #F7F7F7;
     font-family: Montserrat, sans-serif;
     padding: 50px 0;
@@ -9,7 +16,7 @@
 }
 
 .advantages__title {
-    color: orange;
+    color: #000000;
 }
 
 .advantages__title-border {
@@ -25,8 +32,12 @@
 }
 
 .advantages__link {
-    border-color: orange;
-    color: orange;
+    display: inline-block;
+
+    padding: 10px;
+
+    border-color: #000000;
+    color: #000000;
 
     transition:  all .1s ease-in-out;
 }

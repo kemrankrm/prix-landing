@@ -24,7 +24,7 @@ const popupContent = [
 const cardsContent = [
     {
         id: 'marketplace',
-        imageUrl: 'images/Add%20files-rafiki.svg',
+        imageUrl: 'images/marketplace.png',
         imageAlt: 'feature',
         title: 'УДОБНЫЙ МАРКЕТПЛЕЙС',
         description: 'Найти и выбрать авто в любой стране стало гораздо проще',
@@ -47,8 +47,6 @@ const cardsContent = [
 
 const cardsContainer = document.querySelector('.features__cards');
 const cardTemplate = document.querySelector('.card-template').content;
-
-// console.log(cardTemplate);
 
 const featuresHeader = document.querySelector('.features__header');
 const featuresCards = document.querySelectorAll('.features__card');

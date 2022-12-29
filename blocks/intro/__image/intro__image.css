@@ -1,7 +1,7 @@
 .intro__image {
-    margin: 0;
-    width: 65%;
+    width: 50%;
     position: relative;
-    top: 160px;
-    left: 100px;
+    left: 40px;
+
+    scale: 1.3;
 }
