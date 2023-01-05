@@ -32,6 +32,7 @@
 @import "../blocks/features/__description/features__description.css";
 @import "../blocks/features/features(responsive).css";
 
+@import "../blocks/info/info.css";
 
 @import "../blocks/content/content.css";
 @import "../blocks/content/content(responsive).css";

@@ -160,7 +160,7 @@ console.log(window.visualViewport)
 //FEATURES HEADER VARIABLE OPACITY SETUP
 window.addEventListener('scroll', () => {
     scrollPosition = window.pageYOffset;
-    scrollDisplay.textContent = scrollPosition;
+    scrollDisplay.textContent = window.screen.width;
 
     //VARIABLE CARDS TITLE OPACITY
     // varyElementOpacity(featuresHeader, 400, 580);
