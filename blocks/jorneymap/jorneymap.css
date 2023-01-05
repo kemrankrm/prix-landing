@@ -1,0 +1,86 @@
+.jorneymap {
+    font-family: Montserrat, sans-serif;
+}
+
+.jorneymap__steps-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jorneymap__title {
+    color: skyblue;
+    font-size: 38px;
+    text-align: center;
+
+    margin: 30px 0;
+}
+
+.jorneymap__subtitle {
+    color: grey;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+    opacity: .7;
+
+    margin: 0 auto 70px;
+
+    width: 600px;
+}
+
+.jorneymap__step {
+    display: flex;
+    justify-content: space-around;
+
+    box-sizing: border-box;
+    padding: 30px 0;
+    margin: 30px 0;
+
+    position: relative;
+}
+
+.second-step, .fourth-step {
+    flex-direction: row-reverse;
+}
+
+.jorneymap__bottom-border {
+    width: 400px;
+
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 200px);
+
+    border-bottom: 1px solid grey;
+    opacity: .4;
+}
+
+.jorneymap__image-container {
+    width: 40%;
+    height: 100%;
+    /*border: 1px solid blue;*/
+    /*box-sizing: border-box;*/
+    display: flex;
+    justify-content: center;
+}
+
+.jorneymap__image {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.jorneymap__text-content {
+    width: 45%;
+}
+
+.jorneymap__step-title {
+    color: #0070f3;
+    font-size: 36px;
+
+    margin: 0 0 20px
+}
+
+.jorneymap__step-description {
+    color: grey;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 25px;
+}
