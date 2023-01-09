@@ -44,7 +44,7 @@ const cardsContent = [
         id: 'gps',
         imageUrl: 'images/fix.png',
         imageAlt: 'GPS ТРЕКИНГ',
-        title: 'GPS ТРЕКИНГ',
+        title: 'ПРОВЕРКА АВТОМОБИЛЯ',
         description: 'Отслеживай доставку своего авто в любой точке мира',
     },
 ]
@@ -77,9 +77,9 @@ const closeElements = [popupCloseButton, popupOverlay];
 const cards = document.querySelectorAll('.features__card');
 
 //CARD ELEMENT CLICK LISTENER
-cards.forEach(item => {
-    item.addEventListener('click', () => handlePopupOpen(item));
-})
+// cards.forEach(item => {
+//     item.addEventListener('click', () => handlePopupOpen(item));
+// })
 
 closeElements.forEach(item => {
     item.addEventListener('click', handlePopupClose)
@@ -87,17 +87,17 @@ closeElements.forEach(item => {
 
 const scrollDisplay = document.querySelector('.scroll');
 
-function handlePopupOpen(item) {
-    const content = popupContent.find(block => block.name === item.id)
-
-    popupImage.setAttribute('src', content.image)
-    popupTitle.textContent = content.title;
-    popupText.textContent = content.text;
-
-    popup.classList.add('popup_visible');
-    document.addEventListener('keydown', handleEscClose)
-
-}
+// function handlePopupOpen(item) {
+//     const content = popupContent.find(block => block.name === item.id)
+//
+//     popupImage.setAttribute('src', content.image)
+//     popupTitle.textContent = content.title;
+//     popupText.textContent = content.text;
+//
+//     popup.classList.add('popup_visible');
+//     document.addEventListener('keydown', handleEscClose)
+//
+// }
 
 function handlePopupClose() {
     popup.classList.remove('popup_visible');
