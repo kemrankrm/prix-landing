@@ -24,16 +24,16 @@ const popupContent = [
 const cardsContent = [
     {
         id: 'marketplace',
-        imageUrl: 'images/marketplace.png',
+        imageUrl: 'images/ecommerce.png',
         imageAlt: 'feature',
         title: 'УДОБНЫЙ МАРКЕТПЛЕЙС',
         description: 'Найти и выбрать авто в любой стране стало гораздо легче. Вперед к поиску',
     },
     {
         id: 'pricing',
-        imageUrl: 'images/Calculator-amico.svg',
+        imageUrl: 'images/policy.png',
         imageAlt: 'feature',
-        title: 'КОНКУРЕНТНЫЕ ЦЕНЫ',
+        title: 'ЭЛЕКТРОННЫЕ ДОКУМЕНТЫ',
         description: 'Партнеры предложат цены \n' +
             'на интересующие модели,\n' +
             ' где ты сможешь подобрать\n' +
@@ -42,7 +42,7 @@ const cardsContent = [
     },
     {
         id: 'gps',
-        imageUrl: 'images/Paper%20map-bro%20(1).svg',
+        imageUrl: 'images/fix.png',
         imageAlt: 'GPS ТРЕКИНГ',
         title: 'GPS ТРЕКИНГ',
         description: 'Отслеживай доставку своего авто в любой точке мира',

@@ -3,9 +3,9 @@
     width: 100%;
 
     margin: 0 auto;
-    padding: 90px 0;
+    padding: 100px 0;
 
-    background-color: #F7F7F7;
+    background-color: #ffffff;
 
     color: #000000;
     font-family: Montserrat, Inter,sans-serif;
@@ -13,7 +13,8 @@
 
 .content__wrapper {
     width: 80%;
-    margin: 0 auto;
+    margin: 40px auto;
+
     display: flex;
     justify-content: space-around;
 }
@@ -30,6 +31,8 @@
 }
 
 .content__image {
+    scale: 1.1;
+
     width: 600px;
     height: 100%;
 }
