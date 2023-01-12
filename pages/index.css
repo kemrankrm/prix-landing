@@ -10,9 +10,9 @@
 /*INTRO SECTION STYLES*/
 @import "../blocks/intro";
 
-@import "../blocks/features/features.css";
+@import "../blocks/features";
 
-@import "../blocks/info/info.css";
+@import "../blocks/info";
 
 @import "../blocks/content/content.css";
 
@@ -25,6 +25,3 @@
 @import "../blocks/community/community.css";
 
 @import "../blocks/footer/footer.css";
-
-@import "../blocks/popup/popup.css";
-@import "../blocks/popup/popup(responsive).css";

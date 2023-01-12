@@ -3,7 +3,7 @@
     color: #000000;
     font-family: "Helvetica Neue", sans-serif;
 
-    margin: 40px 0 80px;
+    margin: 40px 0 0;
 }
 
 .features__title {
@@ -14,6 +14,13 @@
 
 .features__image {
     height: 220px;
+
+    padding: 30px 40px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
 }
 
 .features__image-container {
@@ -54,6 +61,8 @@
     width: 350px;
 
     transition: scale .2s ease-in-out;
+
+    border-radius: 40px;
 }
 
 .features__cards {
@@ -62,6 +71,9 @@
 
     display: flex;
     justify-content: space-around;
+
+    position: relative;
+    top: -120px;
 }
 
 @media screen and (max-width: 420px) {
