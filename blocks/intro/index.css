@@ -1,5 +1,5 @@
 .intro {
-    background-image: url("/images/intro.png");
+    background-image: url("../../images/intro.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -9,7 +9,6 @@
 
 .intro__wrapper {
     display: flex;
-
     max-width: 1280px;
     margin: 0 auto;
 }

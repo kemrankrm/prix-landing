@@ -2,17 +2,19 @@
 @import "../vendor/fonts.css";
 
 /*HEADER SECTION STYLES*/
-@import "../blocks/header";
+@import "../blocks/header/index.css";
 
 /*MAIN SECTION STYLES*/
-@import "../blocks/main";
+@import "../blocks/main/index.css";
 
 /*INTRO SECTION STYLES*/
-@import "../blocks/intro";
+@import "../blocks/intro/index.css";
 
-@import "../blocks/features";
+@import "../blocks";
 
-@import "../blocks/info";
+@import "../blocks/features/index.css";
+
+@import "../blocks/info/index.css";
 
 @import "../blocks/content/content.css";
 
@@ -27,6 +29,3 @@
 @import "../blocks/community/community.css";
 
 @import "../blocks/footer/footer.css";
-
-@import "../blocks/popup/popup.css";
-@import "../blocks/popup/popup(responsive).css";
