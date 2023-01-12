@@ -2,40 +2,19 @@
 @import "../vendor/fonts.css";
 
 /*HEADER SECTION STYLES*/
-@import "../blocks/header/header.css";
-@import "../blocks/header/__logo/header__logo.css";
-@import "../blocks/header/__content/header__content.css";
-@import "../blocks/header/__navigation-list/header__navigation-list.css";
-@import "../blocks/header/__nabigation-item/header__navigation-item.css";
-@import "../blocks/header/__button/header__button.css";
+@import "../blocks/header";
 
 /*MAIN SECTION STYLES*/
-@import "../blocks/main/main.css";
+@import "../blocks/main";
 
 /*INTRO SECTION STYLES*/
-@import "../blocks/intro/intro.css";
-@import "../blocks/intro/__content/intro__content.css";
-@import "../blocks/intro/__image/intro__image.css";
-@import "../blocks/intro/__subtitle/intro__subtitle.css";
-@import "../blocks/intro/__title/intro__title.css";
-@import "../blocks/intro/__text-container/intro__text-container.css";
-@import "../blocks/intro/__apple-badge/intro__apple-badge.css";
+@import "../blocks/intro";
 
-/*FEATURES SECTION STYLES*/
-@import "../blocks/features/features.css";
-@import "../blocks/features/__header/features__header.css";
-@import "../blocks/features/__cards/features__cards.css";
-@import "../blocks/features/__card/features__card.css";
-@import "../blocks/features/__title/features__title.css";
-@import "../blocks/features/__image-container/features__image-container.css";
-@import "../blocks/features/__image/features__image.css";
-@import "../blocks/features/__description/features__description.css";
-@import "../blocks/features/features(responsive).css";
+@import "../blocks/features";
 
-@import "../blocks/info/info.css";
+@import "../blocks/info";
 
 @import "../blocks/content/content.css";
-@import "../blocks/content/content(responsive).css";
 
 @import "../blocks/content/partners/content_partners.css";
 
@@ -44,13 +23,10 @@
 @import "../blocks/jorneymap/jorneymap.css";
 
 @import "../blocks/blog/blog.css";
-@import "../blocks/blog/blog(responsive).css";
 
 @import "../blocks/community/community.css";
-@import "../blocks/community/community(responsive).css";
 
 @import "../blocks/footer/footer.css";
-@import "../blocks/footer/footer(responsive).css";
 
 @import "../blocks/popup/popup.css";
 @import "../blocks/popup/popup(responsive).css";
