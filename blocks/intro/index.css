@@ -1,0 +1,49 @@
+.intro {
+    background-image: url("/images/intro-background.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+    padding: 100px 0 260px;
+}
+
+.intro__wrapper {
+    display: flex;
+
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.intro__content {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #FFFFFF;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.intro__title {
+    margin: 20px 0;
+
+    font-weight: 600;
+    font-size: 76px;
+}
+
+.intro__subtitle {
+    font-weight: 400;
+    font-size: 36px;
+
+    margin: 10px 0;
+}
+
+.intro__image {
+    width: 50%;
+
+    position: relative;
+    left: 40px;
+
+    scale: 1.2;
+}

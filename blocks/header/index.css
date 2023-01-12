@@ -1,0 +1,68 @@
+.header {
+    background-color: #269AFF;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    width: calc(100% - 80px);
+
+    margin: 0 auto;
+
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.header__button {
+    background-color: #0070f3;
+    border: none;
+    border-radius: 10px;
+
+    font-family: Montserrat, Inter, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+
+    margin: 28px 0;
+    padding: 0 25px;
+}
+
+.header__button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.header__content {
+    display: flex;
+}
+
+.header__logo {
+    color: #FFFFFF;
+    font-size: 60px;
+
+    margin: 0;
+
+    object-fit: contain;
+    width: 100px;
+}
+
+.header__navigation-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 500px;
+    padding: 24px;
+}
+
+.header__navigation-item {
+    font-size: 18px;
+
+    transition: scale .2s ease-in-out;
+}
+
+.header__navigation-item:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
