@@ -16,6 +16,8 @@
 
 @import "../blocks/content/content.css";
 
+@import "../blocks/content/partners/content_partners.css";
+
 @import "../blocks/advantages/advantage.css";
 
 @import "../blocks/jorneymap/jorneymap.css";
@@ -25,3 +27,6 @@
 @import "../blocks/community/community.css";
 
 @import "../blocks/footer/footer.css";
+
+@import "../blocks/popup/popup.css";
+@import "../blocks/popup/popup(responsive).css";

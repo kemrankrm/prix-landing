@@ -3,3 +3,42 @@
     src: url("../fonts/Harry-Fat.woff") format("woff");
     font-weight: bold;
 }
+
+@font-face {
+    font-family: 'Kiyev Type Sans';
+    src: url("../fonts/Kyiv-Type-Sans/KyivTypeSans-VarGX.ttf");
+}
+
+@font-face {
+    font-family: 'Fester';
+    src: url("../fonts/Fester/Fester-ExtraLight.otf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Fester';
+    src: url("../fonts/Fester/Fester_Regular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Fester';
+    src: url("../fonts/Fester/Fester_SemiBold.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Fester';
+    src: url("../fonts/Fester/Fester_Bold.otf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'VinnytsiaSansBold';
+    src: url("../fonts/Vinnytsia City/VinnytsiaSansReg.ttf");
+}
+
+@font-face {
+    font-family: 'Doloman';
+    src: url("../fonts/Doloman Pavljenko/DolomanPavljenko.otf");
+}
