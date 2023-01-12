@@ -38,13 +38,22 @@
 }
 
 .content__info {
+    font-family: 'Fester', sans-serif;
+    font-weight: bolder;
+    /*font-family: VinnytsiaSansBold;*/
     width: 40%;
+    /*border: 1px solid red;*/
+    /*background-image: url("../../images/payment-secinfo-background.svg");*/
 }
 
 .content__title {
     width: 100%;
-    font-size: 56px;
-    color: #000000;
+    font-size: 55px;
+    color: #f7ca60;
+
+    margin: 0 0 30px;
+    font-weight: 400;
+    /*font-family: 'Kiyev Type Sans';*/
 }
 
 .content__title-border {
@@ -55,9 +64,10 @@
 
 .content__subtitle {
     width: 100%;
-    font-size: 24px;
-    font-weight: lighter;
+    font-size: 17px;
     line-height: 2rem;
+    margin: 0 0 32px;
+    font-weight: 800;
 }
 
 .content__text {
@@ -67,6 +77,41 @@
     line-height: 2rem;
     color: #000000;
     filter: brightness(87%);
+}
+
+.content__icon-list {
+    list-style: none;
+    padding: 0 0 0 48px;
+}
+
+.list-member {
+    position: relative;
+}
+
+.list-member-heading {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    color: #0070f3;
+}
+
+.list-member-text {
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0 0 20px;
+    line-height: 22px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+
+    position: absolute;
+    left: -3rem;
+}
+
+.icon-svg {
+    width: 100%;
 }
 
 .content__link {

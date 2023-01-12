@@ -37,6 +37,8 @@
 @import "../blocks/content/content.css";
 @import "../blocks/content/content(responsive).css";
 
+@import "../blocks/content/partners/content_partners.css";
+
 @import "../blocks/advantages/advantage.css";
 
 @import "../blocks/jorneymap/jorneymap.css";
